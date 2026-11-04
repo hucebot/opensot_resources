@@ -9,4 +9,5 @@ description = "Optional assets for pyopensot"
 requires-python = ">=3.10"
 
 [tool.hatch.build.targets.wheel]
-force-include = { "robots" = "pyopensot_resources/robots" }
+force-include = { "robots" = "pyopensot_resources/robots" , "__init__.py" = "pyopensot_resources/__init__.py" }
+
